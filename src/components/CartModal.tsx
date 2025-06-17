@@ -1,14 +1,6 @@
 import { type  CartModalProps } from '../types/CartItem';
 import useExchangeRate from '../hooks/useExchangeRate';
 
-// interface Props {
-//     cartItems: CartItem[];
-//     isOpen: boolean;
-//     onClose: () => void;
-//     removeFromCart: (id: number) => void;
-//     changeQuantity: (id: number, delta: number) => void;
-// }
-
 export default function CartModal({
     cartItems,
     isOpen,
