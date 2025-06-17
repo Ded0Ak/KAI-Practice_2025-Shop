@@ -86,10 +86,7 @@ export default function CartModal({
                                 <div className="text-sm text-gray-500">
                                     ≈ {(total * usdToUah).toFixed(0)} грн
                                 </div>
-                            </>
-                        ) : (
-                            <div className="text-gray-400">Розрахунок…</div>
-                        )}
+                            </>) : (<div className="text-gray-400">Розрахунок…</div>)}
                     </div>
                 </div>
             </div>
